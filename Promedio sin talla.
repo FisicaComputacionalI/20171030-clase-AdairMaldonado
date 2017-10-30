@@ -1,0 +1,21 @@
+// Saber la edad promedio a la que se graduan los estudiantes de la lic. en física. Vectores.
+// Autor: Braian Adair Maldonado Luna.
+//30/10/17
+#include <iostream>
+using namespace std;
+int main()
+{
+  int edad[14];
+  int suma=0;
+  for (int i=0; i<14; i++)
+    { cout<<"¿A qué edad te graduaste?"<<endl;
+    cin>>edad[i];
+    suma+=edad[i];
+}
+    for (int j=0; j<14; j++)
+    cout<<edad[j]<<",";
+    cout<<endl;
+    cout<<"La edad promedio de graduación esperada es: "<<suma/14<<endl;
+
+return 0;
+}
