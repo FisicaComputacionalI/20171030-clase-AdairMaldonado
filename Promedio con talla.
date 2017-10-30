@@ -17,6 +17,6 @@ int main()
     cout<<edad[j]<<",";
     cout<<endl;
     cout<<"La edad promedio de graduación esperada es: "<<suma/talla<<endl;
-
+    delete[]edad;
 return 0;
 }
